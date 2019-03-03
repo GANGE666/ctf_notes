@@ -1,0 +1,6 @@
+<br />
+<b>Notice</b>:  Undefined variable: rock in <b>/var/www/xinhu/include/View.php</b> on line <b>2</b><br />
+<br />
+<b>Notice</b>:  Trying to get property of non-object in <b>/var/www/xinhu/include/View.php</b> on line <b>2</b><br />
+<br />
+<b>Fatal error</b>:  Call to a member function gettoken() on a non-object in <b>/var/www/xinhu/include/View.php</b> on line <b>2</b><br />

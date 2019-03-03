@@ -1,0 +1,24 @@
+sudo apt-get build-essential libx11-dev libxrandr-dev libsdl1.2-dev vgabios bximage
+
+./configure --enable-debugger --enable-disasm -with-sdl
+
+dd if=pmtest1.bin of=a.img bs=512 count=1 conv=notrunc
+
+CDFC10
+8d8000 -> 8dfc10
+
+hctf{1234567890123456789012345678901234567890123456789012345678901234567890123}
+hctf{G_1s_iN_y0@r_aRe4_0n5_0f_Th5_T0ugHtEST_En1gMa_123456789012345678901234567}
+
+hctf{G_1s_iN_y0@r_aRe4_0n5_0f_Th5_T0ugHtEST_En1gMa_qwertyuiopasdfghjklzxcvbnmq}
+
+com:port=\\.\pipe\kd_WinXp_52Pojie_2.0,baud=115200,pipe
+
+bp Spiral_core!DriverEntry
+
+lmvm Spiral_core
+
+bp f886f000+poi(poi(f886f000+3c)+f886f000+28)
+4012b0-40334f
+
+4012b0-00401740

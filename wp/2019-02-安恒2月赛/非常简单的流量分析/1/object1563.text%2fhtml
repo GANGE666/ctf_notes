@@ -1,0 +1,8 @@
+<br />
+<b>Notice</b>:  Use of undefined constant ROOT_PATH - assumed 'ROOT_PATH' in <b>/var/www/xinhu/include/chajian/JPushChajian.php</b> on line <b>5</b><br />
+<br />
+<b>Warning</b>:  include_once(ROOT_PATH/include/JPush/JPush.php): failed to open stream: No such file or directory in <b>/var/www/xinhu/include/chajian/JPushChajian.php</b> on line <b>5</b><br />
+<br />
+<b>Warning</b>:  include_once(): Failed opening 'ROOT_PATH/include/JPush/JPush.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in <b>/var/www/xinhu/include/chajian/JPushChajian.php</b> on line <b>5</b><br />
+<br />
+<b>Fatal error</b>:  Class 'Chajian' not found in <b>/var/www/xinhu/include/chajian/JPushChajian.php</b> on line <b>6</b><br />
